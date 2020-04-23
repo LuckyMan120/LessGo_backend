@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="app.lessgo.lessgoapp" version="2.4.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>LessGo</name>
+    <description>
+        Application to share medium and long distance trips.
+    </description>
+    <author email="info@lessgo.com" href="http://localhost:8081">
+        Email LessGo
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <hook src="scripts/copy_dist.js" type="before_prepare" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="0" />
+    <preference name="ShowSplashScreen" value="false" />
+    <preference name="SplashScreenWidth" value="0" />
+    <preference name="SplashScreenHeight" value="0" />
+</widget>

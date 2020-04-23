@@ -1,0 +1,9 @@
+version: '3'
+services:
+  backend:
+    build: .
+    image: lessgo_backend
+    ports:
+      - "8080:80"
+    volumes:
+      - '.:/var/www/lessgo/'
