@@ -141,3 +141,6 @@ alter user 'username'@'localhost' identified with mysql_native_password by 'pass
 ## License
 
 The Carpoolear backend is open-sourced software licensed under the [GPL 3.0](https://github.com/STS-Rosario/carpoolear_backend/blob/master/LICENSE).
+
+### `Author`
+*  Kevin Travis
